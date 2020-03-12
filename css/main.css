@@ -1,4 +1,34 @@
+/* HEADER NAVBAR */
+
+.navbar-brand{
+    text-transform: uppercase;
+}
+
+button.navbar-toggler {
+    outline: none;
+}
+
+/* END HEADER NAVBAR */
+
+/* CAROUSEL */
+
 .carousel-item img{
     max-height: 700px;
     object-fit: cover;
 }
+
+/* END CAROUSEL */
+
+/* ABOUT US SECTION */
+
+.about-us{
+    padding-top: 4em;
+    padding-bottom: 2em;
+}
+
+.about-us .title{
+ width: 150px;
+ padding-bottom: 1.5em;
+}
+
+/* END ABOUT US SECTION */
