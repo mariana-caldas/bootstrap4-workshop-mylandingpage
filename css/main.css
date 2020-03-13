@@ -11,6 +11,7 @@ body{
 
 button.navbar-toggler {
     outline: none;
+    border: none;
 }
 
 /* END HEADER NAVBAR */
@@ -53,7 +54,13 @@ button.navbar-toggler {
 
 .card{
     border: none;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+}
+
+.card-img-top{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
 
 .single-card{
