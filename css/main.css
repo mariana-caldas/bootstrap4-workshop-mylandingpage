@@ -32,3 +32,18 @@ button.navbar-toggler {
 }
 
 /* END ABOUT US SECTION */
+
+/* MODEL DESCRIPTION SECTION */
+
+.model-descriptions{
+    padding-top: 6em;
+    padding-bottom: 2em;
+    background-color: #fafafa;
+}
+
+.model-descriptions .title{
+    width: 300px;
+    padding-bottom: 1.5em;
+}
+
+/* END MODEL DESCRIPTION SECTION */
