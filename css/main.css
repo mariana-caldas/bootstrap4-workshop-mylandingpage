@@ -24,19 +24,19 @@ button.navbar-toggler {
 
 /* END CAROUSEL */
 
-/* ABOUT US SECTION */
+/* NEW CONCEPT SECTION */
 
-.about-us{
+#new-concept{
     padding-top: 4em;
     padding-bottom: 2em;
 }
 
-.about-us .title{
+#new-concept .title{
  width: 300px;
  padding-bottom: 1.5em;
 }
 
-/* END ABOUT US SECTION */
+/* END NEW CONCEPT SECTION */
 
 /* MODEL DESCRIPTION SECTION */
 
@@ -54,6 +54,10 @@ button.navbar-toggler {
 .card{
     border: none;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.08);
+}
+
+.single-card{
+    padding-bottom: 1.5em;
 }
 
 h5.card-title {
