@@ -1,90 +1,170 @@
-body{
-    font-family: 'Raleway', sans-serif;
+body {
+  font-family: "Raleway", sans-serif;
 }
-
 /* HEADER NAVBAR */
-
-.navbar-brand{
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+.navbar-brand {
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
 }
-
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #9d8e58;
+}
 button.navbar-toggler {
-    outline: none;
-    border: none;
+  outline: none;
+  border: none;
 }
-
 /* END HEADER NAVBAR */
 
 /* CAROUSEL */
-
-.carousel-item img{
-    max-height: 700px;
-    object-fit: cover;
+.carousel-item img {
+  max-height: 700px;
+  object-fit: cover;
 }
-
 /* END CAROUSEL */
 
 /* NEW CONCEPT SECTION */
-
-#new-concept{
-    padding-top: 4em;
-    padding-bottom: 2em;
+#new-concept {
+  padding-top: 4em;
+  padding-bottom: 2em;
 }
-
-#new-concept .title{
- width: 300px;
- padding-bottom: 1.5em;
+#new-concept .title {
+  width: 300px;
+  padding-bottom: 1.5em;
 }
-
 /* END NEW CONCEPT SECTION */
 
 /* MODEL DESCRIPTION SECTION */
-
-.model-descriptions{
-    padding-top: 4em;
-    padding-bottom: 2em;
-    background-color: #fafafa;
+#model-descriptions {
+  padding-top: 4em;
+  padding-bottom: 2em;
+  background-color: #fafafa;
 }
-
-.model-descriptions .title{
-    width: 300px;
-    padding-bottom: 1.5em;
+#model-descriptions .title {
+  width: 300px;
+  padding-bottom: 1.5em;
 }
-
-.card{
-    border: none;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 0;
+.card {
+  border: none;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 0;
 }
-
-.card-img-top{
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+.card-img-top {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
-
-.single-card{
-    padding-bottom: 1.5em;
+.single-card {
+  padding-bottom: 1.5em;
 }
-
 h5.card-title {
-    font-weight: 600;
+  font-weight: 600;
 }
-
 a.card-link {
-    color: #666;
-    text-transform: uppercase;
-    font-size: 0.8em;
+  color: #666;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  -webkit-transition: color 0.25s; /* For Safari 3.0 to 6.0 */
+  transition: color 0.25s; /* For modern browsers */
 }
-
-.modal-header{
-    border-bottom: none;
+a.card-link:hover {
+  color: #9d8e58;
 }
-
+.modal-header {
+  border-bottom: none;
+}
 .modal-title {
-    display: block;
-    margin: 0 auto 0 33%;
-    font-weight: 600;
+  display: block;
+  margin: 0 auto 0 33%;
+  font-weight: 600;
 }
-
+.modal-content {
+  border-radius: 0;
+}
 /* END MODEL DESCRIPTION SECTION */
+
+/* CONTACT US SECTION */
+#contact-us {
+  padding-top: 4em;
+  padding-bottom: 2em;
+  background-color: #9d8e58;
+  color: #ffffff;
+}
+.form-control {
+  border-radius: 0;
+  padding: .6em .75em;
+  border: 1px solid #9d8e58;
+  background-color: #8d7f4f;
+}
+.form-control:focus {
+  border: 1px solid #9d8e58;
+  background-color: #8d7f4f;
+}
+.form-control ::-webkit-input-placeholder {
+  /* Edge */
+  color: #ffffff;
+  font-size: 0.8em;
+}
+.form-control:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #ffffff;
+  font-size: 0.8em;
+}
+.form-control::placeholder {
+  color: #ffffff;
+  font-size: 0.8em;
+}
+button.btn.button-submit {
+  border-radius: 0;
+  width: 33%;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #fff;
+  padding: 0.45em;
+  margin: 0 auto;
+  display: block;
+}
+.social-media {
+  word-break: break-all;
+}
+#contact-us h3 {
+  font-size: 3em;
+}
+#contact-us h3 span {
+  font-weight: bold;
+}
+#contact-us h5 {
+  margin: 3% 0 8% 0;
+  line-height: 1.3em;
+}
+.social-media .row {
+  padding-bottom: 0.5em;
+}
+hr {
+  margin-top: 3em;
+  margin-bottom: 1em;
+  border: 0;
+  border-top: 1px solid #ffffff;
+}
+a.author{
+   color: #5E5534;
+  -webkit-transition: color 0.25s; /* For Safari 3.0 to 6.0 */
+   transition: color 0.25s; /* For modern browsers */
+}
+.copyright{
+    font-size: 0.9em;
+}
+a.author:hover{
+  color: #ffffff;
+  text-decoration: none;
+}
+/* END CONTACT US SECTION */
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 767px) {
+  .contact-form {
+    padding-top: 2em;
+  }
+  .social-media .row {
+    padding-bottom: 1em;
+  }
+}
+/* END MEDIA QUERIES */
